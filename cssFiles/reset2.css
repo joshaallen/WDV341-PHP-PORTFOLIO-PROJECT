@@ -1,0 +1,10 @@
+/*This is a reset that I prefer to use nullify the browser effects.*/
+*,*:before,*:after{
+box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+html{
+    height: 100%;
+}
