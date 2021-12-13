@@ -274,8 +274,10 @@
                 </form>
             </div>
         </div>
+
     </div>
     <!--end of container-->
+    
     <?php
     }
 ?><!--end of valid form else statement-->

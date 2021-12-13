@@ -119,7 +119,7 @@
                                     $title = $row['post_title'];
                                     $author = $row['posts_user_name'];
                                     $date = $row['post_date'];
-                                    $posts .= "<div style='background: rgba(255, 255, 255, 0.6);border-radius: 15px;display: inline-block;margin-top: 4rem;margin-bottom: 4rem;'><h2><a href='readPost.php?postID=".$row['post_id']."'>$title</a></h2><h4>Submitted by &#58; <span style='color: red;'>$author</span></h4><h6 style='color: red;'>$date</h6></div><br>";
+                                    $posts .= "<div style='background: rgba(255, 255, 255, 0.6);border-radius: 15px;margin-top: 4rem;margin-bottom: 4rem;'><h2><a href='readPost.php?postID=".$row['post_id']."'>$title</a></h2><h4>Submitted by &#58; <span style='color: red;'>$author</span></h4><h6 style='color: red;'>$date</h6></div><br>";
                                 }
                                 echo $posts;
                             }
@@ -137,5 +137,10 @@
                 </form>
     </div>
     <!--end of container-->
+    <footer>
+    <img src="images/squareHelmet1.png">       
+    <span style="color:red; font-size: 2rem;">Giants</span>
+    <span style="color:white; font-size: 2rem;">FanPage</span>
+    </footer>
 </body>
 </html>

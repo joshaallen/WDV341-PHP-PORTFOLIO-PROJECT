@@ -35,7 +35,7 @@
     <link rel="stylesheet" href="cssFiles/finalProject.css" type="text/css">
 </head>
 <body>
-    <div class="container">
+    <div class="container height">
         <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container-fluid">
                 <div class="navbar-header">
@@ -119,5 +119,10 @@
             </div>
         </div><!--end of row-->
     </div><!--end of container-->
+    <footer>
+    <img src="images/squareHelmet1.png">       
+    <span style="color:red; font-size: 2rem;">Giants</span>
+    <span style="color:white; font-size: 2rem;">FanPage</span>
+    </footer>
 </body>
 </html>

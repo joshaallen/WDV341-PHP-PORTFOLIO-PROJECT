@@ -132,7 +132,11 @@
 
     </div>
     <!--end of container-->
-
+    <footer>
+    <img src="images/squareHelmet1.png">
+    <span style="color:red; font-size: 2rem;">Giants</span>
+    <span style="color:white; font-size: 2rem;">FanPage</span>
+    </footer>                              
 </body>
 
 </html>
