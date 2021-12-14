@@ -115,6 +115,7 @@ html {
 }
 
 footer {
+   display: flex;
     border-top: 1px solid #FFFFFF;
    width: 100%;
     background-color: #4373a7;
@@ -122,4 +123,9 @@ footer {
 //home.php
 .height {
     height: 100vh;
+}
+.copyright {
+    
+    margin-left: auto;
+    margin-right: auto;
 }

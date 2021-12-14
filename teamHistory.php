@@ -133,10 +133,11 @@
     </div>
     <!--end of container-->
     <footer>
-    <img src="images/squareHelmet1.png">
+    <img src="images/squareHelmet1.png">       
     <span style="color:red; font-size: 2rem;">Giants</span>
     <span style="color:white; font-size: 2rem;">FanPage</span>
-    </footer>                              
+    <p class="copyright">&#169;<span style="color:white; font-size: 2rem;"><?php echo " ". date("Y") . " "; ?></span> WDV341</p>
+    </footer>                             
 </body>
 
 </html>

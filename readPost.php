@@ -10,7 +10,7 @@
     <!--
 				Final Project
 				Author: Joshua Allen
-				Date: December 28, 2018
+				Date: December 13, 2021
 	-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -144,5 +144,11 @@
                 </form>
     </div>
     <!--end of container-->
+    <footer>
+    <img src="images/squareHelmet1.png">       
+    <span style="color:red; font-size: 2rem;">Giants</span>
+    <span style="color:white; font-size: 2rem;">FanPage</span>
+    <p class="copyright">&#169;<span style="color:white; font-size: 2rem;"><?php echo " ". date("Y") . " "; ?></span> WDV341</p>
+    </footer>
 </body>
 </html>
