@@ -164,19 +164,19 @@
                     <?php echo "<h2 style=\"color:red;\">$errorMsg</h2>";?>
                     <div class="form-group">
                         <label for="firstName">First Name</label>
-                        <input type="text" name="firstName" id="firstName" class="form-control" placeholder="John"></input>
+                        <input type="text" name="firstName" id="firstName" class="form-control" placeholder="John" required autocomplete="off"></input>
                     </div>
                     <div class="form-group">
                         <label for="lastName">Last Name</label>
-                        <input type="text" class="form-control" name="lastName" id="lastName" placeholder="Smith"></input>
+                        <input type="text" class="form-control" name="lastName" id="lastName" placeholder="Smith" required autocomplete="off"></input>
                     </div>
                     <div class="form-group">
                         <label for="email">Email</label>
-                        <input type="email" id="email" name="email" class="form-control" placeholder="JohnSmith@abc.com"></input>
+                        <input type="email" id="email" name="email" class="form-control" placeholder="JohnSmith@abc.com" required autocomplete="off"></input>
                     </div>
                     <div class="form-group">
                         <label for="comment">Comment:</label>
-                        <textarea class="form-control" rows="5" name="comment"id="comment"></textarea>
+                        <textarea class="form-control" rows="5" name="comment"id="comment" required autocomplete="off"></textarea>
                     </div>
                     <div class="form-group">
                         <input type="submit" class="btn btn-primary" name="submit" value="Submit">
