@@ -43,7 +43,7 @@ html {
     animation: pop-in 3s;
 }
 
-@keyframes pop-in {
+ @keyframes pop-in {
     0% {
         transform: scale(0) translateY(100px);
     }
@@ -55,15 +55,17 @@ html {
         transform: scale(1) translateY(0px);
     }
 }
+
+ 
 .helmet>img {
     width: 100%;
     height: auto;
-    opacity: 0;
-    animation-delay: 1s;
+    /*  opacity: 0;
+     animation-delay: 1s;
     animation-name: slideX;
     animation-duration: 1s;
     animation-fill-mode: forwards;
-    animation-timing-function: linear;
+    animation-timing-function: linear;  */ 
 }
 @keyframes slideX {
     FROM {
@@ -74,10 +76,8 @@ html {
         transform: translateX(350px) rotate(390deg);
         opacity: 1;
     }
-}
+} 
 .rightHelmet>img {
-    
-    
     position: fixed;
     right: 0;
     top: 300px;
@@ -88,7 +88,9 @@ html {
     animation-fill-mode: forwards;
     animation-timing-function: linear;
 }
-@keyframes slide-X {
+ 
+ 
+/* @keyframes slide-X {
     FROM {
         transform: translateX(0);
         opacity: 1;
@@ -97,7 +99,7 @@ html {
         transform: translateX(-370px) rotate(-390deg);
         opacity: 1;
     }
-}
+}  */
 @media only screen and (max-width: 1024px) {
     .rightHelmet{
         display: none;

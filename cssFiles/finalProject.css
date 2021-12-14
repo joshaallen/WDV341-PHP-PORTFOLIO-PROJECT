@@ -66,12 +66,12 @@ p::first-letter {
 .helmet > img {
   width: 100%;
   height: auto;
-  opacity: 0;
-  animation-delay: 1s;
+  /*  opacity: 0;
+   animation-delay: 1s;
   animation-name: slideX;
   animation-duration: 1s;
   animation-fill-mode: forwards;
-  animation-timing-function: linear;
+  animation-timing-function: linear;  */
 }
 
 @keyframes slideX {
@@ -96,16 +96,16 @@ p::first-letter {
   animation-timing-function: linear;
 }
 
-@keyframes slide-X {
-  from {
-    transform: translateX(0);
-    opacity: 1;
-  }
-  to {
-    transform: translateX(-370px) rotate(-390deg);
-    opacity: 1;
-  }
-}
+/* @keyframes slide-X {
+    FROM {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    TO {
+        transform: translateX(-370px) rotate(-390deg);
+        opacity: 1;
+    }
+}  */
 @media only screen and (max-width: 1024px) {
   .rightHelmet {
     display: none;

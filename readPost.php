@@ -34,7 +34,7 @@
     </style>
 </head>
 <body>
-    <div class="container">
+    <div class="container height">
         <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container-fluid">
                 <div class="navbar-header">
@@ -142,7 +142,8 @@
                     ?>  
                     </div>
                 </form>
-    </div>
+            </div>
+                    </div>
     <!--end of container-->
     <footer>
     <img src="images/squareHelmet1.png">       
@@ -150,5 +151,6 @@
     <span style="color:white; font-size: 2rem;">FanPage</span>
     <p class="copyright">&#169;<span style="color:white; font-size: 2rem;"><?php echo " ". date("Y") . " "; ?></span> WDV341</p>
     </footer>
+    
 </body>
 </html>

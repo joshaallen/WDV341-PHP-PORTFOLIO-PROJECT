@@ -33,6 +33,12 @@
     <!-- Load an icon library -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="cssFiles/finalProject.css" type="text/css">
+    <style>
+        footer {
+            position: fixed;
+            bottom: 0;
+        }
+    </style>
 </head>
 <body>
     <div class="container height">
@@ -111,13 +117,25 @@
             }?>
         </div>
         <div class="row">
-            <div class=" col-xs-3 helmet">
+            <div class=" col-xs-6 helmet">
                 <img src="images/giantsSmallHelmet.png" alt="Giants Helmet">
             </div>
-            <div class=" col-xs-3 rightHelmet">
-                <img src="images/right_giantsSmallHelmet.png" alt="Giants Helmet">
-            </div>
+           <div class=" col-xs-6 rightHelmet">
+                <!-- <img src="images/right_giantsSmallHelmet.png" alt="Giants Helmet"> -->
+            </div> 
         </div><!--end of row-->
+        <?php
+$xml = simplexml_load_file("https://elitesportsny.com/category/nyc-teams/c-new-york-giants/feed/");
+echo '<ul class="list-group">';
+foreach($xml->channel->item as $item) {
+  $title = $item->title;
+  $link = $item->link;
+  $description = $item->description; 
+  echo '<li class="list-group-item"><a href='.$link.'>'.$title.'</a>'.$description.'</li>';
+ 
+}
+echo "</ul>";
+?>
     </div><!--end of container-->
     <footer>
     <img src="images/squareHelmet1.png">       

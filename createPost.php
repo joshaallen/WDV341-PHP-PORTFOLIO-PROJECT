@@ -164,7 +164,7 @@
                 }
             }
         ?>
-    <div class="container">
+    <div class="container height">
         <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container-fluid">
                 <div class="navbar-header">
@@ -248,7 +248,7 @@
                     elseif(isset($_GET['postID']))
                     {
                 ?>
-                        <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF'])."?postID=$postID";?>" onsubmit="return validateMyForm()" method="post">
+                        <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF'])."?postID=$postID";?>" onsubmit="return validateMyForm()">
                 <?php
                     }
                 ?>
