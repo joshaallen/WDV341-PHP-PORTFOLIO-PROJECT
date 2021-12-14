@@ -24,7 +24,7 @@
         $inLastName = strip_tags($_POST['lastName']);
         $inEmail = $_POST['email'];
         $inComment = strip_tags($_POST['comment']);
-        $mailTo = "joshuaa2003@joshuaallen.info";
+        $mailTo = "$inEmail, joshuaa2003@joshuaallen.info";
 
         //Validate Form data
         $validForm = true;
